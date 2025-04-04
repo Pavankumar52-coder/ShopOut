@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
 
 # Initializing the gemini api key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDfUtrnxNOiVYTXtEuav3xxQQLpR61iDlo"
+os.environ["GOOGLE_API_KEY"] = "YOur gemini api key"
 
 # Load the translated text from translated.json
 with open("translated.json", "r", encoding="utf-8") as f:
